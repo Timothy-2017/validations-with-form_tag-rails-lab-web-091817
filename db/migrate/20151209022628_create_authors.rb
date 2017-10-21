@@ -5,6 +5,7 @@ class CreateAuthors < ActiveRecord::Migration
       t.string :email
       t.string :phone_number
 
+
       t.timestamps null: false
     end
   end
